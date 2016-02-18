@@ -18,10 +18,10 @@
   },
   "devDependencies": {
     "code": "2.x.x",
-    "lab": "8.x.x"
+    "lab": "9.x.x"
   },
   "scripts": {
-    "test": "lab -L -t 100 -m 3000",
+    "test": "lab -L -m 3000",
     "test-cov-html": "lab -L -r html -m 3000 -o coverage.html"
   },
   "license": "BSD-3-Clause"
